@@ -1,0 +1,54 @@
+body {
+    background-color: #f0fff0;
+}
+
+h1 {
+    font-size: 5rem;
+    color: darkolivegreen;
+    text-decoration: underline 5px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+blockquote {
+    border-left: solid 15px slateblue;
+    background-color: #fafafa;
+    padding: 15px 15px;
+}
+
+blockquote.main-quote p {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(26, 113, 117);
+}
+
+blockquote.main-quote cite {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+hr {
+    color: crimson;
+    margin: 2rem 0px;
+}
+
+a:link, 
+a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: sienna;
+}
+
+a:hover {
+    font-size: 1.1rem;
+    background-color: royalblue;
+    color: palegoldenrod;
+}
+
+li {
+    margin-bottom: .2rem;
+}
